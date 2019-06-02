@@ -1,0 +1,5 @@
+enclave {
+    trusted {
+        public void hello([out, size=n] char *dest, size_t n);
+    };
+};
